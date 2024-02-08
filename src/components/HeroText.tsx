@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 
 import { Button } from "../styled-components/Button"
 import { HeroHeading } from "../styled-components/HeroHeading"
-import { HeroParagraph } from "../styled-components/HeroParagraph"
+import { P } from "../styled-components/P"
 import { HeroTextContainer } from "../styled-components/HeroTextContainer"
 import HeadingContainer from "./HeadingContainer"
 
@@ -46,7 +46,7 @@ export default function HeroText() {
 				</motion.div>
 			</HeadingContainer>
 
-			<HeroParagraph
+			<P
 				initial={{ opacity: 0, y: 30 }}
 				animate={{ opacity: 1, y: 0 }}
 				transition={{ duration }}
@@ -54,7 +54,7 @@ export default function HeroText() {
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
 				possimus maiores totam inventore reiciendis alias, dolor facilis
 				quasi dicta hic?
-			</HeroParagraph>
+			</P>
 
 			<Button
 				initial={{ y: 50, opacity: 0 }}

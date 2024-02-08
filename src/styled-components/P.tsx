@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import { motion } from "framer-motion"
 
-export const HeroParagraph = styled(motion.p)`
+export const P = styled(motion.p)`
 	font-family: inherit;
 	font-size: 1.6rem;
 	color: #d3d3d3;

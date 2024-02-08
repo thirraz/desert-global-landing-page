@@ -2,7 +2,7 @@ import { StyledApp } from "./styled-components/StyledApp"
 import { HeroSection } from "./styled-components/HeroSection"
 import { Overlay } from "./styled-components/Overlay"
 import HeroText from "./components/HeroText"
-import ItemsSection from "./components/ItemsSection"
+import ToolsSection from "./components/ToolsSection"
 import Navbar from "./components/Navbar"
 
 export default function App() {
@@ -13,7 +13,7 @@ export default function App() {
 				<Navbar />
 				<HeroText />
 			</HeroSection>
-			<ItemsSection />
+			<ToolsSection />
 		</StyledApp>
 	)
 }
