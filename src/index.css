@@ -7,6 +7,16 @@
 	src: url("/src/assets/fonts/Helvetica-Bold.ttf");
 }
 
+::-moz-selection {
+	background: #d387a5;
+	color: #fff;
+}
+
+::-selection {
+	background: #d387a5;
+	color: #fff;
+}
+
 :root {
 	--desktop-padding: 1.2rem;
 	--text-z-index: 10;
@@ -22,9 +32,11 @@
 
 html {
 	font-size: 62.5%;
-
 	-ms-overflow-style: none;
 	scrollbar-width: none;
+	scroll-snap-type: y mandatory;
+	scroll-snap-stop: always;
+	scroll-behavior: smooth;
 }
 
 body {

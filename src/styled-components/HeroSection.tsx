@@ -16,4 +16,6 @@ export const HeroSection = styled.section`
 
 	display: flex;
 	align-items: center;
+
+	scroll-snap-align: start;
 `
