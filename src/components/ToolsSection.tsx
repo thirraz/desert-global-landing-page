@@ -3,22 +3,22 @@ import GridItem from "./GridItem"
 
 const componentAssets = [
 	{
-		src: "/public/wheel.jpg",
+		src: "/wheel.jpg",
 		heading: "The best wheels, just for you",
 		text: "Wheels with high performance and durability, only here!"
 	},
 	{
-		src: "/public/headlight.jpg",
+		src: "/headlight.jpg",
 		heading: "Want headlights? No problem!",
 		text: "We bring the best headlights to you don't struggle in roads"
 	},
 	{
-		src: "/public/auto-toolkit.jpg",
+		src: "/auto-toolkit.jpg",
 		heading: "Dont forget your toolkit!",
 		text: "Fix your car faster with these tools!"
 	},
 	{
-		src: "/public/motor.jpg",
+		src: "/motor.jpg",
 		heading: "No matter what you want, we have it!",
 		text: "Choose one of our motors and feel like a racer!"
 	}

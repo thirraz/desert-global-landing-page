@@ -4,6 +4,7 @@ import { Overlay } from "./styled-components/Overlay"
 import HeroText from "./components/HeroText"
 import ToolsSection from "./components/ToolsSection"
 import Navbar from "./components/Navbar"
+import CtaAndFaqContainer from "./components/CtaAndFaqContainer"
 
 export default function App() {
 	return (
@@ -14,6 +15,7 @@ export default function App() {
 				<HeroText />
 			</HeroSection>
 			<ToolsSection />
+			<CtaAndFaqContainer />
 		</StyledApp>
 	)
 }

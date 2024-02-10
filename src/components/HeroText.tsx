@@ -7,6 +7,11 @@ import { HeroTextContainer } from "../styled-components/HeroTextContainer"
 import HeadingContainer from "./HeadingContainer"
 
 export default function HeroText() {
+	const variants = {
+		hide: { y: "100%", opacity: 0 },
+		show: { opacity: 1, y: ["100%", "50%", "0%", "-10%", "-3%", "0%"] }
+	}
+
 	const duration = 0.75
 
 	return (
@@ -18,11 +23,9 @@ export default function HeroText() {
 					}}
 				>
 					<HeroHeading
-						initial={{ y: "100%", opacity: 0 }}
-						animate={{
-							opacity: 1,
-							y: ["100%", "50%", "0%", "-10%", "-3%", "0%"]
-						}}
+						variants={variants}
+						initial="hide"
+						animate="show"
 						transition={{ duration }}
 					>
 						Great Tools for
@@ -34,11 +37,9 @@ export default function HeroText() {
 					}}
 				>
 					<HeroHeading
-						initial={{ y: "100%", opacity: 0 }}
-						animate={{
-							opacity: 1,
-							y: ["100%", "50%", "0%", "-10%", "-3%", "0%"]
-						}}
+						variants={variants}
+						initial="hide"
+						animate="show"
 						transition={{ duration }}
 					>
 						Great Cars
