@@ -4,7 +4,7 @@ import GridItem from "./GridItem"
 const componentAssets = [
 	{
 		src: "/wheel.jpg",
-		heading: "The best wheels, just for you",
+		heading: "The best wheels, just for you!",
 		text: "Wheels with high performance and durability, only here!"
 	},
 	{

@@ -5,8 +5,6 @@ export const HeroSection = styled.section`
 	height: 100dvh;
 	padding-left: 3rem;
 
-	/* border-radius: 29px; */
-
 	background-image: url("/bgHero.jpg");
 	background-position: bottom;
 	background-size: cover;
@@ -18,4 +16,9 @@ export const HeroSection = styled.section`
 	align-items: center;
 
 	scroll-snap-align: end;
+
+	@media only screen and (max-width: 768px) {
+		align-items: end;
+		padding-bottom: 2rem;
+	}
 `

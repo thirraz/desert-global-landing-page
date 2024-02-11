@@ -10,4 +10,8 @@ export const Input = styled.input`
 	padding-bottom: 0.8rem;
 	min-width: 20%;
 	width: 20%;
+
+	@media only screen and (max-width: 768px) {
+		width: 50%;
+	}
 `

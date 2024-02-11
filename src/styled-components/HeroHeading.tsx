@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 export const HeroHeading = styled(motion.h1)`
 	font-family: "Helvetica Bold";
 	text-transform: uppercase;
-	font-size: clamp(2rem, 10vh, 12rem);
+	font-size: clamp(1vw, 5vw, 8rem);
 	color: #f0f0f0;
 	font-weight: bolder;
 	position: relative;

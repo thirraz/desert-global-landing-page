@@ -2,11 +2,25 @@ import { StyledCtaAndFaq } from "../styled-components/StyledCtaAndFaq"
 import Cta from "./Cta"
 import GridItem from "./GridItem"
 
+const gridItemAssets = [
+	{
+		bgImg: "/faq.jpg",
+		heading: "See our clients feedback",
+		text: "KKKKKKKK."
+	},
+	{
+		bgImg: "/grad.jpg",
+		heading: "Weekend offers",
+		text: "KKKKKKKK KKKKKKKKKKK."
+	}
+]
+
 export default function CtaAndFaqContainer() {
 	return (
 		<StyledCtaAndFaq>
-			<GridItem bgImg="/faq.jpg" heading="See our clients feedback" />
-			<GridItem bgImg="/grad.jpg" heading="OFFERS" />
+			{gridItemAssets.map(({ bgImg, heading, text }, i) => (
+				<GridItem bgImg={bgImg} heading={heading} text={text} key={i} />
+			))}
 			<Cta />
 		</StyledCtaAndFaq>
 	)

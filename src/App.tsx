@@ -5,6 +5,7 @@ import HeroText from "./components/HeroText"
 import ToolsSection from "./components/ToolsSection"
 import Navbar from "./components/Navbar"
 import CtaAndFaqContainer from "./components/CtaAndFaqContainer"
+import Footer from "./components/Footer"
 
 export default function App() {
 	return (
@@ -16,6 +17,7 @@ export default function App() {
 			</HeroSection>
 			<ToolsSection />
 			<CtaAndFaqContainer />
+			<Footer />
 		</StyledApp>
 	)
 }

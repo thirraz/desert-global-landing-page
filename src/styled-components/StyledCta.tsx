@@ -6,9 +6,14 @@ export const StyledCta = styled.div`
 	background: var(--dark-blue);
 
 	display: flex;
-	gap: 2.3rem;
+	gap: 1.5rem;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-end;
+	padding-bottom: 2rem;
+
+	@media only screen and (max-width: 768px) {
+		padding: 1.7rem 0;
+	}
 
 	& div {
 		background: green;
@@ -22,6 +27,11 @@ export const StyledCta = styled.div`
 			fill: #fff;
 			width: 2.2rem;
 			height: 2.2rem;
+
+			@media only screen and (max-width: 768px) {
+				width: 1.8rem;
+				height: 1.8rem;
+			}
 		}
 
 		&:hover {

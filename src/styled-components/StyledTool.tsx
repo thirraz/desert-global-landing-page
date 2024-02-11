@@ -9,4 +9,8 @@ export const StyledTool = styled.div`
 	background-position: center;
 	background-size: cover;
 	padding: 3rem 4rem;
+
+	@media only screen and (max-width: 768px) {
+		background-position: top;
+	}
 `
