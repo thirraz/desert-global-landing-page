@@ -5,13 +5,12 @@ import GridItem from "./GridItem"
 const gridItemAssets = [
 	{
 		bgImg: "/faq.jpg",
-		heading: "See our clients feedback",
-		text: "KKKKKKKK."
+		heading: "See our clients feedback"
 	},
 	{
 		bgImg: "/grad.jpg",
 		heading: "Weekend offers",
-		text: "KKKKKKKK KKKKKKKKKKK."
+		text: "Everybody love offers! Check it by click on button below"
 	}
 ]
 

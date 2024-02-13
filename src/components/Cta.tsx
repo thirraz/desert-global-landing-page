@@ -7,7 +7,7 @@ export default function Cta() {
 		<StyledCta>
 			<Input
 				type="text"
-				placeholder="Type your e-mail here to receive offers"
+				placeholder="Type your e-mail here to receive custom offers"
 			/>
 			<div>
 				<BsBell />
