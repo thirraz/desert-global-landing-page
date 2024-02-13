@@ -8,16 +8,13 @@ import CtaAndFaqContainer from "./components/CtaAndFaqContainer"
 import Footer from "./components/Footer"
 import ScrollbarProgress from "./components/ScrollbarProgress"
 import HeroSectionArrowIcon from "./components/HeroSectionArrowIcon"
-import { useViewportWidth } from "./hooks/useViewportWidth"
 
 export default function App() {
-	const windowWidth = useViewportWidth()
-
 	return (
 		<StyledApp>
 			<ScrollbarProgress />
 			<HeroSection>
-				{windowWidth > 768 && <HeroSectionArrowIcon />}
+				<HeroSectionArrowIcon />
 				<Overlay />
 				<Navbar />
 				<HeroText />
