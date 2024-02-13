@@ -5,7 +5,10 @@ import { BsBell } from "react-icons/bs"
 export default function Cta() {
 	return (
 		<StyledCta>
-			<Input type="text" placeholder="Type your e-mail here" />
+			<Input
+				type="text"
+				placeholder="Type your e-mail here to receive offers"
+			/>
 			<div>
 				<BsBell />
 			</div>
