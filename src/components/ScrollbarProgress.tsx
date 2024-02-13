@@ -3,9 +3,9 @@ import { motion, useScroll, useSpring } from "framer-motion"
 
 const Scrollbar = styled(motion.div)`
 	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
+	top: 0%;
+	right: 0%;
+	left: 0%;
 
 	height: 11px;
 	background: #fff;

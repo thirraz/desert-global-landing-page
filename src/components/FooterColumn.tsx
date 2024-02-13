@@ -16,7 +16,7 @@ export default function FooterColumn({ title, links }: Props) {
 
 			{windowWidth > 768 &&
 				links.map((link: string, i: number) => (
-					<A href="#" key={i}>
+					<A href="#" key={i} style={{ color: "#d3d3d3" }}>
 						{link}
 					</A>
 				))}
