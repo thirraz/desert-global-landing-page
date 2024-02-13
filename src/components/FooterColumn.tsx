@@ -1,6 +1,6 @@
-import { useCallback, useEffect, useState } from "react"
 import { A } from "../styled-components/A"
 import { StyledFooterColumn } from "../styled-components/StyledFooterColumn"
+import { useViewportWidth } from "../hooks/useViewportWidth"
 
 type Props = {
 	title: string
@@ -8,17 +8,7 @@ type Props = {
 }
 
 export default function FooterColumn({ title, links }: Props) {
-	const [windowWidth, setWindowWidth] = useState(window.innerWidth)
-
-	const setViewportWidth = useCallback(() => {
-		return setWindowWidth(window.innerWidth)
-	}, [])
-
-	useEffect(() => {
-		window.addEventListener("resize", setViewportWidth)
-
-		return () => window.removeEventListener("resize", setViewportWidth)
-	}, [setViewportWidth])
+	const windowWidth = useViewportWidth()
 
 	return (
 		<StyledFooterColumn>
