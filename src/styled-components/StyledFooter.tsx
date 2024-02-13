@@ -3,8 +3,9 @@ import styled from "styled-components"
 export const StyledFooter = styled.footer`
 	max-width: 100dvw;
 	width: 100dvw;
+	height: min-content;
 	min-height: min-content;
-	padding: 4rem 0;
+	padding: 4rem 0 3rem 0;
 	background: var(--dark-blue);
 	border-top: 1px solid #fff;
 
